@@ -1,4 +1,5 @@
-spring:
+spring:	
+  profile: 'backend-pet'
   datasource: 'jdbc:postgresql://localhost:5432/pets'
     url:
     password: 'postgres'
