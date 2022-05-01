@@ -1,0 +1,9 @@
+spring:
+  datasource: 'jdbc:postgresql://localhost:5432/pets'
+    url:
+    password: 'postgres'
+    username: 'password'
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
